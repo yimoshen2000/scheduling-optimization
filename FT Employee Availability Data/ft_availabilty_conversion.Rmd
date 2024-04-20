@@ -1,6 +1,6 @@
 ---
-title: "MATH 381 Project"
-author: "Tiffany Tian"
+title: "Availability Parser"
+author: "Yimo Shen"
 date: "5/11/2022"
 output: html_document
 ---
