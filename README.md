@@ -50,25 +50,6 @@ This project involves the design and development of a schedule generation and op
 - **config.py:** Contains configuration settings for database connections and other parameters.
 - **settings.json:** Allows customization of optimization parameters such as work hour limits and shift preferences.
 
-## Contributing
-
-We welcome contributions to improve this tool. Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch.
-   ```sh
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes.
-   ```sh
-   git commit -m "Add your message"
-   ```
-4. Push to the branch.
-   ```sh
-   git push origin feature/your-feature-name
-   ```
-5. Open a pull request.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -76,14 +57,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgements
 
 We would like to thank the University of Washington and Starbucks for providing the resources and support necessary to develop this tool.
-
-## Contact
-
-For any questions or further information, please contact:
-- **Project Lead:** [Your Name] (your.email@domain.com)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
-
----
-
-Thank you for using the Starbucks UW Campus Schedule Generation & Optimization Tool! Your contributions and feedback are invaluable to us.
 ``` ````
