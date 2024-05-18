@@ -17,3 +17,73 @@ This project involves the design and development of a schedule generation and op
    ```sh
    git clone https://github.com/yourusername/starbucks-schedule-optimizer.git
    cd starbucks-schedule-optimizer
+   ```
+
+2. **Install Dependencies:**
+   Ensure you have Python installed (version 3.7 or higher) and then install the necessary packages.
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Database Setup:**
+   Configure your database settings in `config.py` and initialize the database.
+   ```sh
+   python init_db.py
+   ```
+
+## Usage
+
+1. **Input Employee Availability:**
+   Ensure all student employees have submitted their availability forms in the required format (e.g., CSV).
+
+2. **Run the Optimizer:**
+   Execute the script to generate the schedule.
+   ```sh
+   python generate_schedule.py --input availability.csv --output schedule.csv
+   ```
+
+3. **View the Schedule:**
+   The generated schedule will be saved as `schedule.csv`. You can open this file with any spreadsheet software to review and distribute.
+
+## Configuration
+
+- **config.py:** Contains configuration settings for database connections and other parameters.
+- **settings.json:** Allows customization of optimization parameters such as work hour limits and shift preferences.
+
+## Contributing
+
+We welcome contributions to improve this tool. Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+   ```sh
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes.
+   ```sh
+   git commit -m "Add your message"
+   ```
+4. Push to the branch.
+   ```sh
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+We would like to thank the University of Washington and Starbucks for providing the resources and support necessary to develop this tool.
+
+## Contact
+
+For any questions or further information, please contact:
+- **Project Lead:** [Your Name] (your.email@domain.com)
+- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+
+---
+
+Thank you for using the Starbucks UW Campus Schedule Generation & Optimization Tool! Your contributions and feedback are invaluable to us.
+``` ````
