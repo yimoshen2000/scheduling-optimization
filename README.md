@@ -57,4 +57,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgements
 
 We would like to thank the University of Washington and Starbucks for providing the resources and support necessary to develop this tool.
-```
